@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_politics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.quzi.PoliticsActivity"
+    android:background="@color/category_numbers">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 1"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:textSize="40dp"
+                    style="@style/CategoryStyle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What is South Africa's biggest export?"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    style="@style/CategoryStyle"/>
+
+
+                <RadioGroup
+                    android:id="@+id/radio_question_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_option_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gold"
+                        style="@style/CategoryStyle" />
+
+                    <RadioButton
+                        android:id="@+id/radio_option_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coal"
+                        style="@style/CategoryStyle" />
+
+                    <RadioButton
+                        android:id="@+id/radio_option_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Diamonds"
+                        style="@style/CategoryStyle" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 2"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:textSize="40dp"
+                style="@style/CategoryStyle" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who was elected president of South Africa in 1994?"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                style="@style/CategoryStyle"/>
+
+
+            <RadioGroup
+                android:id="@+id/radio_question_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_button_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mohamed Mature"
+                    style="@style/CategoryStyle"/>
+
+                <RadioButton
+                    android:id="@+id/radio_button_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nelson Mandela"
+                    style="@style/CategoryStyle"/>
+
+                <RadioButton
+                    android:id="@+id/radio_button_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ronald Reagan"
+                    style="@style/CategoryStyle"/>
+            </RadioGroup>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 3"
+                    android:textSize="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    style="@style/CategoryStyle"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How many registered political parties are active in South Africa, nationally?"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    style="@style/CategoryStyle"/>
+
+                <RadioGroup
+                    android:id="@+id/radio_question_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_button_1_option"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Between 150 and 199"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_button_2_option"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Between 50 and 99"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_button_3_option"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Between 200 and 250"
+                        style="@style/CategoryStyle"/>
+                </RadioGroup>
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/category_numbers"
+                android:id="@id/questionView"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 4"
+                    android:textSize="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    style="@style/CategoryStyle"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How many democratically elected heads of state has South Africa had ?"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    style="@style/CategoryStyle"/>
+
+                <RadioGroup
+                    android:id="@+id/radio_question_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_option_1_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_option_2_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_option_3_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        style="@style/CategoryStyle"/>
+                </RadioGroup>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Questions 5"
+                    android:textSize="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    style="@style/CategoryStyle"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What did South African host in 2010 ?"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    style="@style/CategoryStyle"/>
+
+                <RadioGroup
+                    android:id="@+id/radio_question_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_option_1d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Olympics"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_option_2e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="World Cup"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_option_3f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="World Series"
+                        style="@style/CategoryStyle"/>
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/buttonAlert"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="submit " />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+

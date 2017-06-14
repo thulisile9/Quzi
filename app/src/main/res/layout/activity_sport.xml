@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_politics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.quzi.SportActivity"
+    android:background="@color/category_numbers">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 1"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:textSize="40dp"
+                    style="@style/CategoryStyle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Which club won the Permier League this year?"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    style="@style/CategoryStyle"/>
+
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_a_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chelsea"
+                    style="@style/CategoryStyle" />
+
+                <RadioButton
+                    android:id="@+id/radio_a_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aresene"
+                    style="@style/CategoryStyle" />
+
+                <RadioButton
+                    android:id="@+id/radio_a_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Man .City"
+                    style="@style/CategoryStyle" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 2"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:textSize="40dp"
+                style="@style/CategoryStyle" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who is the captain for Real Madrid?"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                style="@style/CategoryStyle"/>
+
+
+            <RadioGroup
+                android:id="@+id/radio_button_b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_quest_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cristano Ronaldo"
+                    style="@style/CategoryStyle"/>
+
+                <RadioButton
+                    android:id="@+id/radio_quest_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marcelo"
+                    style="@style/CategoryStyle"/>
+
+                <RadioButton
+                    android:id="@+id/radio_quest_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sergio Ramos"
+                    style="@style/CategoryStyle"/>
+            </RadioGroup>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 3"
+                    android:textSize="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    style="@style/CategoryStyle"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How many games did Real Madrid won this year in La Liga?"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    style="@style/CategoryStyle"/>
+
+                <RadioGroup
+                    android:id="@+id/radio_button_c3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_c_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19 Games"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_c_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25 Games"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_c_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="29 Games"
+                        style="@style/CategoryStyle"/>
+                </RadioGroup>
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/category_numbers"
+                android:id="@id/questionView"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 4"
+                    android:textSize="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    style="@style/CategoryStyle"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Which club won the UEFA champlon League?"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    style="@style/CategoryStyle"/>
+
+                <RadioGroup
+                    android:id="@+id/radio_button_d4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_d_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Juventus"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_d_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Real Madrid"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_d_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bayern Munich"
+                        style="@style/CategoryStyle"/>
+                </RadioGroup>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Questions 5"
+                    android:textSize="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    style="@style/CategoryStyle"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Which club won the ABSA premiership this year ?"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    style="@style/CategoryStyle"/>
+
+                <RadioGroup
+                    android:id="@+id/radio_button_e5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_E_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bidvest Wits"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_E_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kaizer Chiefs"
+                        style="@style/CategoryStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_E_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mamelod Sundowns"
+                        style="@style/CategoryStyle"/>
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/buttonAlert"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="submit " />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

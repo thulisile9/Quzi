@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_politics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.quzi.MusicActivity"
+    android:orientation="vertical"
+    android:background="@color/category_numbers">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/questionView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="16dp"
+                android:background="@color/category_numbers"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/CategoryStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:text="Question 1"
+                    android:textSize="40dp" />
+
+                <TextView
+                    style="@style/CategoryStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="How many songs did LiL wayne relist list year ?"
+                    android:textSize="20sp" />
+
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio_button_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1,723"
+                    style="@style/CategoryStyle"/>
+
+                <RadioButton
+                    android:id="@+id/radio_button_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"
+                    style="@style/CategoryStyle"/>
+
+                <RadioButton
+                    android:id="@+id/radio_button_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="750"
+                    style="@style/CategoryStyle"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@id/questionView"
+                android:background="@color/category_numbers"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 2"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:textSize="40dp"
+                style="@style/CategoryStyle" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who is Rihanna feat in her song selfishe?"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                style="@style/CategoryStyle"/>
+
+
+            <RadioGroup
+                android:id="@+id/radio_button_b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <RadioButton
+                    android:id="@+id/radio_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nick Minaj"
+                    style="@style/CategoryStyle"/>
+
+                <RadioButton
+                    android:id="@+id/radio_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drake"
+                    style="@style/CategoryStyle" />
+
+                <RadioButton
+                    android:id="@+id/radio_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Future"
+                    style="@style/CategoryStyle" />
+            </RadioGroup>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@id/questionView"
+            android:background="@color/category_numbers"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 3"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                style="@style/CategoryStyle"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How many songs did Nick Mainaj feat Drake?"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                style="@style/CategoryStyle"/>
+
+            <RadioGroup
+                android:id="@+id/radio_button_c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_option_1E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    style="@style/CategoryStyle" />
+
+                <RadioButton
+                    android:id="@+id/radio_option_2E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    style="@style/CategoryStyle" />
+
+                <RadioButton
+                    android:id="@+id/radio_option_3E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    style="@style/CategoryStyle" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/category_numbers"
+            android:id="@id/questionView"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 4"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                style="@style/CategoryStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who won the Best male Hip Hop  award ?"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                style="@style/CategoryStyle"/>
+
+            <RadioGroup
+                android:id="@+id/radio_button_d4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_option_1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kendrick Lamar"
+                    style="@style/CategoryStyle" />
+
+                <RadioButton
+                    android:id="@+id/radio_option_2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drake"
+                    style="@style/CategoryStyle"/>
+
+                <RadioButton
+                    android:id="@+id/radio_option_3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Future"
+                    style="@style/CategoryStyle" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@id/questionView"
+            android:background="@color/category_numbers"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions 5"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            style="@style/CategoryStyle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who won the Best Femal R n B award ?"
+            android:textSize="20sp"
+            android:layout_margin="16dp"
+            style="@style/CategoryStyle"/>
+
+        <RadioGroup
+            android:id="@+id/radio_button_e5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_option_1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beyonce "
+                style="@style/CategoryStyle" />
+
+            <RadioButton
+                android:id="@+id/radio_option_2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nicki Minaj"
+                style="@style/CategoryStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio_option_3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rihanna"
+                style="@style/CategoryStyle"/>
+        </RadioGroup>
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/buttonAlert"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Submit" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
